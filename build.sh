@@ -1,3 +1,7 @@
+
+JOB_NAME_LOWER=$(echo "$JOB_NAME" | tr '[:upper:]' '[:lower:]')
+
+
 docker build -t $JOB_NAME:$BUILD_ID .
 
 docker tag $JOB_NAME:$BUILD_ID harshit356/$JOB_NAME:$BUILD_ID
