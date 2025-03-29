@@ -16,4 +16,4 @@ docker push harshit356/$JOB_NAME_LOWER:$BUILD_ID
 docker push harshit356/$JOB_NAME_LOWER:latest
 
 # Clean up local images
-docker rmi -f $JOB_NAME_LOWER:$BUILD_ID harshit356/$JOB_NAME_LOWER:$BUILD_ID jacksneel/$JOB_NAME_LOWER:latest
+docker rmi -f $JOB_NAME_LOWER:$BUILD_ID harshit356/$JOB_NAME_LOWER:$BUILD_ID harshit356/$JOB_NAME_LOWER:latest
